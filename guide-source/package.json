@@ -1,0 +1,12 @@
+{
+  "name": "d4-s15-warlock-guide-builder",
+  "private": true,
+  "description": "Builds Season-15-Warlock-Blazing-Scream-Guide.docx and .md from content1-4.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.2",
+    "jszip": "^3.10.2"
+  }
+}

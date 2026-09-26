@@ -1,0 +1,438 @@
+// Part 1 + Part 2: start here, the rares-only step-by-step plan, gear before ideal items.
+// Inline markup: **bold**, *italic*.
+module.exports = [
+  { t: 'part', text: 'Part 1 — Start Here' },
+
+  { t: 'h1', id: 'answer', text: '1. The Short Answer: "Should I Just Run Lair Bosses?"' },
+  { t: 'callout', kind: 'tip', title: 'Mostly yes, once you are in Torment. But not only Lair Bosses, and not first.', body: [
+    'The Lair Bosses drop the build\'s core items: **Elegy** (Lord Zir), **Infernal Homunculus** (Urivar), **The Eightfold Idol** (Beast in the Ice), plus **Temerity** and **Moloch\'s Beating Flame** later. Your **Splinter of Destruction** also boosts Lair Boss loot. So they are the main event.',
+    'Three things come before or alongside them:',
+    { bullets: [
+      '**Lair Boss Hoards need Torment I.** Clear **Pit tier 10** first (Artificer\'s Obelisk, Cerrigar). Lair Keys only drop in Torment.',
+      '**Keys come from other activities.** They come from your War Plan runs (Undercity, Helltide, Tree of Whispers, Nightmare Dungeons) plus World Bosses and Legion events. You alternate: farm keys, then spend them on the 3 bosses you need.',
+      '**The Pit levels your glyphs and unlocks the next Torment.** **Escalation Nightmare Dungeons** are where you target-farm Soul Splinters.',
+    ] },
+    'A typical hour at Torment I–V, as a rule of thumb: about 30–35 min on War Plan activities (keys, Destruction reputation, gear, materials), 15–20 min spending keys on Lord Zir, Urivar and Beast in the Ice, and 10 min of Pit for glyphs.',
+  ] },
+
+  { t: 'h1', id: 'bigpicture', text: '2. The Big Picture: 5 Phases' },
+  { t: 'table', widths: [1500, 2900, 3000, 2680], head: ['Phase', 'Goal', 'Main activities', 'Gear you use'], rows: [
+    ['**1. Tonight**', 'Finish the season story. Turn your Rares into a working Starter build.', 'Questline, Codex/imprinting, tempering, War Plan setup', 'Rares with imprinted aspects (§4, §5)'],
+    ['**2. Unlock Torment**', 'Pit 10 → Torment I. Season Ranks I–III.', 'Undercity, Helltide, NMD, Pit', 'Starter setup (§11)'],
+    ['**3. Core uniques**', 'Elegy, Infernal Homunculus, Eightfold Idol, Temerity, Leoric\'s Crown', 'War Plan (keys), then Initiate Lair Bosses; Pit for glyphs; Worldstone Keep capstone', 'Starter, then switch to Midgame (§12)'],
+    ['**4. Greater bosses**', 'Moloch\'s, Temerity, Hand of Apotheosis; masterwork; Soul Splinters', 'Greater Lair Bosses (T6+), Infernal Hordes/Bartuc, Escalation NMDs', 'Midgame (§12)'],
+    ['**5. Mythics & polish**', 'Mythics, glyphs 100–150, Season Rank VIII–IX', 'Belial, Echo of Mephisto, Pit pushing', 'Endgame / Push / Speedfarm (§13–14)'],
+  ] },
+
+  { t: 'h1', id: 'master', text: '3. Master Checklist' },
+  { t: 'h3', text: 'Phase 1: tonight' },
+  { t: 'check', items: [
+    'Finish the seasonal quests **The Burning Shepherd**, **The Brother\'s Keeper** and **Legacy of Hope**. Keep the **Splinter of Destruction**.',
+    'Salvage every Legendary you own to unlock aspects in the **Codex of Power**.',
+    'Pick your best Rare for every slot using the **per-slot stat tables** (§5.2). Imprint the Starter aspects onto them at the Occultist.',
+    'Temper every piece (§5.5). Craft **Stealth** (Tal + Eth in a white chest). You got Tal and Eth from the story.',
+    'Respec into the **Starter** skills: Legion Shard + Sacrificial Fragment (§11).',
+    'Temis: set up a **War Plan** at Tyrael\'s table and check the Horadric Cube (§9).',
+    'Equip a **Seal** and charms, put **Soul Splinters or gems** in the jewelry, hire **Varyana** with **Raheir** as reinforcement.',
+    'Spend Paragon points: Start board, then Dynamism. Socket **Superiority** (§15).',
+    'Buy the Season Blessing **Urn of Reclamation** (§8.2).',
+  ] },
+  { t: 'h3', text: 'Phase 2: unlock Torment (day 1–2)' },
+  { t: 'check', items: [
+    'Season Rank Capstones: **Halls of the Blind** (Expert+), then **Den of Evil** (Penitent+).',
+    'Get Destruction to **rank 6** (1,300 rep): Ice of Excidium procs give +50 Wrath.',
+    'Clear **Pit 10** to unlock **Torment I**. Then the Rank III Capstone, **Scouring of Caldeum** (T1+).',
+    'Clear **Pit 15** (T2) and get one glyph to level 10. Rank IV Capstone: **Horadric Library** (T2+).',
+  ] },
+  { t: 'h3', text: 'Phase 3: core uniques (T1–T5)' },
+  { t: 'check', items: [
+    'Add **Lair Bosses** to your War Plan. Spend keys only on **Lord Zir** (Elegy), **Urivar** (Infernal Homunculus) and **Beast in the Ice** (The Eightfold Idol).',
+    'Save **Boss Trophies**. 5 identical make a random Unique from that boss in the Cube.',
+    'Clear **Pit 25** (T4) and get three glyphs to 20. Rank V Capstone: **Worldstone Keep (Nightmare)**. Farm it for **Leoric\'s Crown**.',
+    'Once you have **Elegy + Infernal Homunculus + Temerity**, switch to the **Midgame** setup (§12).',
+  ] },
+  { t: 'h3', text: 'Phase 4–5: Greater bosses, Mythics' },
+  { t: 'check', items: [
+    'T6+: **Butcher** (Moloch\'s), **Harbinger** (Temerity). Infernal Hordes 666 Aether leads to **Bartuc** (Hand of Apotheosis).',
+    'Masterwork to 25, weapons first. Farm Soul Splinters in **Escalation Nightmare Dungeons**.',
+    'Mythic order: **Moloch\'s → Temerity → Leoric\'s → Elegy → Homunculus**. Only one Cube-upgraded Mythic can be worn.',
+    'Glyphs 50 → 100 → 150. Season Ranks VI–IX. Splinter of Destruction to rank 24.',
+  ] },
+
+  { t: 'pagebreak' },
+  { t: 'part', text: 'Part 2 — Your First Days at 70 (Rares Only)' },
+
+  { t: 'h1', id: 'plan', text: '4. Step-by-Step Endgame Plan: Starting With Rares + Splinter of Destruction' },
+  { t: 'p', text: 'This assumes you only have **Rare items**, the Splinter of Destruction, no build uniques, and few or no Soul Splinters. Do the steps in order. Each step says what to do, where, and when to move on.' },
+
+  { t: 'h2', text: 'Step 0 — Before you leave town (about 1 hour)' },
+  { t: 'numbered', items: [
+    '**Finish the questline** (§6) and keep the **Splinter of Destruction**.',
+    '**Respec into the Starter build** (§11): Legion Shard + Sacrificial Fragment, with Blazing Scream, Command Fallen, Rampage, Command Ae\'grom, Apocalypse and Nether Step. It needs **no uniques**.',
+    '**Fill your Codex of Power.** Salvage every Legendary in your stash and bags. Salvaging a Legendary unlocks its aspect, or raises its rank if the roll is higher. Look for the 8 Starter aspects: *Aspect of the Fortress, Aspect of Accursed Touch, Aspect of Coagulation, Aspect of Fiendish Oppression, Aspect of Scorching Heat, Edgemaster\'s Aspect, Demonic Aspect, Remorseless Aspect*. Keep an eye out for the later ones: *Sadistic, Undying, Diabolical Armor, Ignition, Malicious*.',
+    '**Missing aspects?** In the Horadric Cube (Temis), use **Upgrade to Legendary** on spare Rares (Rare + 1 Pure Dust + 10 Raw Dust). It rolls a random aspect. A Tuning Prism steers the category: Offensive, Defensive, Utility or Resource. Salvage the result to unlock the aspect. The **Undercity** is also a good early aspect source.',
+    '**Pick one Rare per slot** using the slot tables (§5.2). Keep a Rare if it has **2 or more of the top-4 stats** for that slot, at the highest Item Power you have.',
+    '**Fix the affixes while the item is still Rare** (Cube, §5.4): *Add Affix*, *Remove Affix* (Magic/Rare only), *Focused Reroll*. Then **Enchant** the worst remaining affix at the Occultist.',
+    '**Imprint the Starter aspect** onto each item (Occultist → Imprint). The Rare becomes a Legendary. Non-Ancestral costs 15 Baleful Fragment + 250k gold.',
+    '**Temper everything** (§5.5): Max Life on helm, chest and pants. Movement Speed on boots. Attack Speed or Crit Chance on weapons. Demonology or Hellfire damage on gloves. Lucky Hit: Restore Resource on rings and amulet.',
+    '**Sockets and gems** (§5.6): Rubies in the weapon and focus. Sapphires in helm, chest and pants until you have runes. Soul Splinters in jewelry (Rubies if you have no splinters).',
+    '**Runewords:** craft **Stealth** now (Tal + Eth + a white chest, in the Cube). Craft **Ancient\'s Pledge** (Ral + Ort + Tal + a white Focus) when the rune ladder allows (§5.6).',
+    '**Talisman:** equip your best Seal and fill it with charms. Prefer the **Slaughter** set (Fer, Phoba, Mlor of Slaughter).',
+    '**Mercenaries:** hire **Varyana** and set **Raheir** as reinforcement, using *Bastion* on **Command Fallen**.',
+    '**Paragon:** Start board, then Dynamism. Socket **Superiority**. Take Legendary nodes and survivability first.',
+    '**War Plan** (Tyrael\'s table, Temis): **Undercity, Helltide, Nightmare Dungeons, the Pit, Tree of Whispers**. Lair Bosses can\'t be added until Torment I.',
+    '**Season Blessing:** buy **Urn of Reclamation** (better salvage materials).',
+  ] },
+
+  { t: 'h2', text: 'Step 1 — Penitent → Pit 10 → Torment I (session 1–2)' },
+  { t: 'numbered', items: [
+    'Clear the Season Rank Capstones you haven\'t done: **Halls of the Blind** (Expert+) and **Den of Evil** (Penitent+). Open standard Waking Nightmares with a *Chronicle of Nightmares*.',
+    'Run your War Plan on **Penitent**:',
+    { sub: [
+      '**Undercity**: Destruction reputation and Attunement, aspects, and runes (Tribute of Harmony).',
+      '**Helltide**: Tortured Gifts give gear and materials.',
+      '**Nightmare Dungeons**: glyphs and Obducite.',
+      '**Tree of Whispers**: caches.',
+    ] },
+    'Pick up **Artificer\'s Stones** (Whispers, NMDs, Helltides, Legions). You need them to open the Pit.',
+    'Get the Splinter of Destruction to **rank 6** (*Cold Blood*: +50 Wrath per Ice of Excidium proc). It fixes a lot of early Wrath problems.',
+    'Push toward **Paragon ~60–100** and grab your first Legendary nodes. Socket the glyphs you find.',
+    'Clear **Pit tier 10** (Artificer\'s Obelisk, just north of the Cerrigar waypoint). That unlocks **Torment I**. Switch difficulty.',
+  ] },
+  { t: 'callout', kind: 'warn', title: 'Stuck on Pit 10?', body: [ { bullets: [
+    'Check all 8 Starter aspects are imprinted.',
+    'Every piece should be tempered, with Max Life on most of them.',
+    'Aim for more than 40% Attack Speed and more than 20% Crit Chance in total.',
+    'Aim Blazing Scream into walls and corridors so the skulls bounce.',
+    'Farm Penitent a bit more (Helltide, Undercity) for Paragon and better Rares.',
+  ] } ] },
+
+  { t: 'h2', text: 'Step 2 — Torment I–II: the key loop starts (sessions 3–6)' },
+  { t: 'numbered', items: [
+    'Add **Lair Bosses** to your War Plan. Nodes: *Two by Two* → *Greater Nemesis* → *Lair of Runes*.',
+    'Rank III Capstone: **Scouring of Caldeum** (T1+). It rewards a **Lair Key Ring**.',
+    '**THE LOOP:**',
+    { sub: [
+      '**Get keys:** War Plan Key Spoils, Helltide Tortured Gifts, Whisper caches, the Undercity, World Bosses and Legion events.',
+      '**Spend keys only on:** Lord Zir (Elegy), Urivar (Infernal Homunculus) and Beast in the Ice (The Eightfold Idol).',
+      'Any Lair Boss can also drop **Temerity** and **Wendigo Brand** from the general pool.',
+    ] },
+    '**Keep every Boss Trophy.** 5 identical make 1 random Unique from that boss (Cube). Destruction rank 10 gives +30% extra trophies.',
+    '**Upgrade to Ancestral gear as it drops.** Torment drops Ancestral items with a Greater Affix chance. Judge each drop with the slot tables. Temper keepers straight away and re-imprint your aspects onto them (Ancestral imprint: 25 Forgotten Soul + 1M gold). **Don\'t masterwork non-Ancestral items.**',
+    'Clear **Pit 15** to unlock T2. Get **one glyph to level 10**, then do the Rank IV Capstone, **Horadric Library** (T2+).',
+  ] },
+
+  { t: 'h2', text: 'Step 3 — Torment III–V (sessions 6–10)' },
+  { t: 'numbered', items: [
+    'Clear Pit 20 and Pit 25 (T3, T4). Level glyphs by running the Pit **10+ tiers above the glyph\'s level** for guaranteed upgrades. Get three glyphs to 20 for Rank V.',
+    'Rank V Capstone: **Worldstone Keep (Nightmare)** at T4+. Farm this Baal dungeon for **Leoric\'s Crown** (about 15%), Destruction reputation and spare splinters.',
+    '**Start Soul Splinter farming** (§5.6): in the Nightmare Dungeon War Plan tree, take the nodes up to *Branching Pathways*. Run **Escalation NMDs**.',
+    { sub: [
+      'Pick the matching **Gem Reserve** every floor: **Ruby** for Anguish, **Skull** for Mother, **Emerald** for Pain, **Amethyst** for Damnation.',
+      'Combine 5 of a tier into 1 of the next, from Lesser up to Abyssal.',
+    ] },
+    '**Masterwork your Ancestral weapon** toward 25. Obducite comes from NMD *Treasure Breach* and Strongroom affixes and from Undercity *Tribute of Refinement*.',
+    'Collect **Set Charms**; they drop more from T3. You want **Abaddon\'s Flesh** (Warlock) and a Legendary Seal with **+1 Charm Slot**.',
+    '**Switch to the Midgame setup** (§12) once you have **Elegy + Infernal Homunculus + Temerity**, and Sadistic Aspect in your Codex.',
+    { sub: [
+      'Without Temerity\'s Barrier, Destruction Demon\'s self-burn will kill you. Stay on the Starter until then.',
+      'Don\'t equip Homunculus before Elegy.',
+    ] },
+  ] },
+
+  { t: 'h2', text: 'Step 4 — Torment VI–VIII (sessions 10–20)' },
+  { t: 'numbered', items: [
+    '**Greater Lair Keys** drop much more from T6. Use them on **The Butcher** (Moloch\'s Beating Flame), **Harbinger of Hatred** (Temerity) and **Andariel** (Anathema of the Primes charm).',
+    '**Infernal Hordes:** collect **666 Burning Aether** for a Compass. That lets you fight **Bartuc**, who drops Hand of Apotheosis. Only wear it as a **Mythic with a 90%+ roll**; until then keep *Aspect of Ignition* on gloves.',
+    '**Masterwork everything to 25**, weapons first. Steer the capstones onto the targets in §13.',
+    'Glyphs to 45–50. Rank VI Capstone: **Durance of Hate (Nightmare)** (T6). Rank VII: **The Labyrinth (Nightmare)** (T8, Pit 60, three glyphs at 45). Rank VII gives the **Crux of the False Prophet** and a Mythic cache.',
+    'Destruction ranks to aim for: **10** (extra trophies), **14** (Lair of Runes), **16** (Vulnerable on procs), **20** (+3 Uniques from Hoards).',
+    '**Craft Enigma** (Jah + Ith + Ber in a white chest) if you want the Teleport playstyle (§14). Beast in the Ice drops **Jah** with the *Lair of Runes* node.',
+  ] },
+
+  { t: 'h2', text: 'Step 5 — Torment IX–XII: Mythics and polish' },
+  { t: 'numbered', items: [
+    '**First Mythic: Moloch\'s Beating Flame.** Use the Cube upgrade (5 Resplendent Sparks), the Jeweler or the Blacksmith. Then Temerity → Leoric\'s → Elegy → Homunculus.',
+    '**Belial** (Superior Lair Keys) lets you **pick which boss\'s loot table** to roll: use Lord Zir, Urivar and so on for Mythic copies. **Echo of Mephisto** (Crux) guarantees a Mythic.',
+    'Rank VIII: Echo of Mephisto on T10, **Pit 80**, three glyphs at 50, **Paragon 250**.',
+    'Glyphs to 100, then 150. Greater Affix tempers. Swap to the **Endgame / Push / Speedfarm** setups (§13).',
+    'Optional: swap to the **Splinter of Hatred** for pure glyph/Pit grinding. It uses up the splinter item.',
+  ] },
+
+  { t: 'pagebreak' },
+  { t: 'h1', id: 'gear', text: '5. Gear Before Your Ideal Items: Stat Priority by Slot' },
+  { t: 'p', text: 'Each gear slot can only roll certain stats. These lists come from the **Season 15 game data**: the affixes that can currently roll on each Warlock slot, filtered to the ones this build wants. The order follows what the build values in Maxroll\'s decoded setups.' },
+
+  { t: 'h2', text: '5.1 Build-wide targets and how to judge a drop in 10 seconds' },
+  { t: 'table', widths: [3000, 3540, 3540], head: ['Target', 'Starter (now)', 'Midgame and later'], rows: [
+    ['Attack Speed (total)', 'more than **40%**', '**100%** (cap)'],
+    ['Critical Strike Chance (total)', 'more than **20%**', '**100%** (cap)'],
+    ['Wrath per second', 'as much as you can find', 'more than **10**'],
+    ['Maximum Life', 'on nearly every piece', 'on nearly every piece'],
+    ['Lucky Hit: Restore Primary Resource tempers', '**3** (both rings + amulet)', '**2** (both rings)'],
+    ['Fire Resistance', 'Fire first, then the others', 'more than **10,000** (you burn yourself with Fire)'],
+  ] },
+  { t: 'callout', kind: 'info', title: 'Keep or salvage? A quick rule', body: [ { numbered: [
+    'Look at the **top 4 stats** for that slot in the tables below.',
+    '**Rare** with 2+ of them → keep (imprint an aspect, enchant the worst affix). **Legendary** with 3+ of them → keep. Otherwise salvage. Salvaging Legendaries feeds your Codex.',
+    'A **Greater Affix** (★) on a top-4 stat is worth keeping with one fewer match.',
+    '**Ancestral beats non-Ancestral** with the same stats: higher Item Power, and a Greater Affix chance when tempering.',
+    '**Weapons:** judge by weapon damage first, then Willpower, Crit Damage and Fire Damage. Weapon upgrades are the biggest damage jumps.',
+  ] } ] },
+
+  { t: 'h2', text: '5.2 Per-slot stat priority' },
+
+  // HELM
+  { t: 'h3', text: 'Helm' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Maximum Life**', 'Survival. Metamorphosis later scales damage off bonus Max Life.'],
+    ['2', '**+Ranks to Demonology Skills**', 'Blazing Scream is a Demonology skill.'],
+    ['3', '**Willpower**', 'Warlock main stat: skill damage and healing received.'],
+    ['4', '**Cooldown Reduction**', 'More Dark Prison, Metamorphosis and Apocalypse uptime.'],
+    ['5', 'Armor', 'Physical damage reduction.'],
+    ['6', 'Wrath per Second / Resource Generation', 'Wrath sustain.'],
+    ['7', 'Resistance to All Elements, then Fire Resistance', 'Fill resistance gaps.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Aspect of the Fortress* → later: **Leoric\'s Crown** (unique; holds 2 Soul Splinters)'],
+    ['Temper', 'Max Life (*Worldly Endurance*)'],
+    ['Sockets', '2× Sapphire (Willpower) early. Starter runes: Cir + Prid (auto-casts Dark Prison).'],
+    ['Ignore', 'Thorns, Luck, Life Regeneration, Fortify Generation, Abyss / Sigil of Chaos ranks'],
+  ] },
+
+  // CHEST
+  { t: 'h3', text: 'Chest Armor' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Maximum Life**', 'Survival.'],
+    ['2', '**Armor**', 'Chest can roll the high "Greater" Armor range.'],
+    ['3', '**Wrath per Second**', 'Build target: more than 10 total.'],
+    ['4', '**Willpower**', 'Main stat.'],
+    ['5', 'Resistance to All Elements / Fire Resistance', 'Resistances.'],
+    ['6', 'Healing Received', 'Feeds the Temerity Barrier later.'],
+    ['7', 'Resource Cost Reduction', 'Wrath sustain.'],
+    ['–', '+Ranks to Dark Prison (bonus)', 'Nice extra; Dark Prison is a core defensive skill.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: **Stealth** runeword (no aspect needed) → Midgame+: *Aspect of Diabolical Armor* (Speedfarm: **Enigma**)'],
+    ['No runeword yet?', 'A Rare chest with *Aspect of Coagulation* or *Aspect of the Fortress*'],
+    ['Temper', 'Max Life (*Worldly Endurance*)'],
+    ['Sockets', 'Runes: Moni + Qua (Starter), Nagu + Que (Midgame+). Or 2× Sapphire.'],
+    ['Ignore', 'Thorns, Fortify, Life Regeneration, Nether Step / Tortured Wretch / Wall of Agony ranks'],
+  ] },
+
+  // GLOVES
+  { t: 'h3', text: 'Gloves' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Critical Strike Chance**', 'Toward the crit target (100% later).'],
+    ['2', '**Attack Speed**', 'Toward the attack speed target (100% later).'],
+    ['3', '**+Ranks to Blazing Scream**', 'Only gloves roll this. Huge.'],
+    ['4', '**Critical Strike Damage**', 'Gloves roll the high "Greater" range.'],
+    ['5', 'Vulnerable Damage', 'The build keeps enemies Vulnerable.'],
+    ['6', 'Fire Damage', 'Blazing Scream is Fire / Hellfire.'],
+    ['7', 'Maximum Life', 'Survival.'],
+    ['8', 'Willpower', 'Main stat.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Aspect of Accursed Touch* (your Vulnerable source) → Midgame: *Aspect of Ignition* → Endgame: **Hand of Apotheosis** (Mythic, 90%+)'],
+    ['Temper', 'Demonology Damage (*Demonologist* manual; it can also roll Archfiend damage) or Hellfire Damage (*Channeler*)'],
+    ['Sockets', 'None'],
+    ['Ignore', 'Physical/Shadow damage, Damage over Time, Luck, Life Regeneration, other Core skill ranks (Dread Claws, Hell Fracture, Umbral Chains)'],
+  ] },
+
+  // PANTS
+  { t: 'h3', text: 'Pants' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Maximum Life**', 'Survival.'],
+    ['2', '**Armor**', 'Pants roll the high Armor range.'],
+    ['3', '**Wrath per Second**', 'Wrath sustain.'],
+    ['4', '**Willpower**', 'Main stat.'],
+    ['5', 'Resistance to All Elements', 'Resistances.'],
+    ['6', 'Fire Resistance', 'Big chunk toward the Fire target.'],
+    ['7', 'Healing Received', 'Temerity Barrier later.'],
+    ['8', 'Potion Charges', 'Quality of life.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Aspect of Coagulation* → later: **Temerity** (unique)'],
+    ['Temper', 'Max Life (*Worldly Endurance*)'],
+    ['Sockets', '2× Sapphire. Endgame runes: Tam + Lac (Speedfarm: Tam + Tir).'],
+    ['Ignore', 'Dodge, Thorns, Fortify, Life Regeneration, Doom / Hellion Sting ranks'],
+  ] },
+
+  // BOOTS
+  { t: 'h3', text: 'Boots' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Movement Speed**', 'Speed, and Blazing Scream\'s *Impact Velocity* scales with it.'],
+    ['2', '**Maximum Life**', 'Survival.'],
+    ['3', '**Wrath per Second**', 'Wrath sustain.'],
+    ['4', '**+Ranks to Hellfire Skills**', 'Blazing Scream is Hellfire.'],
+    ['5', 'Willpower', 'Main stat.'],
+    ['6', 'Armor', 'Damage reduction.'],
+    ['7', 'Resistance to All Elements', 'Resistances.'],
+    ['–', '+Ranks to Rampage (Starter) / Evade Charges (Teleport build)', 'Situational bonuses.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Aspect of Fiendish Oppression* → Midgame: *Sadistic Aspect* → Endgame: *Undying Aspect* (Push: *Aspect of Rallying Reversal*)'],
+    ['Temper', 'Movement Speed (*Natural Motion*)'],
+    ['Sockets', 'None'],
+    ['Ignore', 'Dodge, Occult ranks, Infernal Breath / Profane Sentinel / Tyrant\'s Grasp ranks'],
+  ] },
+
+  // RINGS
+  { t: 'h3', text: 'Rings (both)' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Critical Strike Chance**', 'Toward 100%.'],
+    ['2', '**Attack Speed**', 'Toward 100%.'],
+    ['3', '**Critical Strike Damage**', 'Damage.'],
+    ['4', '**Vulnerable Damage**', 'Damage.'],
+    ['5', 'Maximum Life', 'Survival.'],
+    ['6', 'Willpower', 'Main stat.'],
+    ['7', 'Fire Damage', 'Damage.'],
+    ['8', 'Resource Cost Reduction / Damage', 'Filler.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Aspect of Scorching Heat* + *Edgemaster\'s Aspect* → Midgame: *Demonic Aspect* + **The Eightfold Idol** → Endgame: **Wendigo Brand** + **The Eightfold Idol**'],
+    ['Temper', 'Lucky Hit: Restore Primary Resource (*Worldly Stability*)'],
+    ['Socket', 'Soul Splinter (§5.6). If you have none, a Ruby (Fire Resistance).'],
+    ['Ignore', 'Physical/Shadow damage, Damage over Time, Luck, Life Regeneration'],
+  ] },
+
+  // AMULET
+  { t: 'h3', text: 'Amulet' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**+Ranks to All Skills**', 'Best single stat here.'],
+    ['2', '**+Ranks to Hellfire Skills**', 'Blazing Scream is Hellfire.'],
+    ['3', '**+Ranks to Demonology Skills**', 'Blazing Scream is Demonology.'],
+    ['4', '**Critical Strike Chance**', 'Toward 100%.'],
+    ['5', 'Critical Strike Damage', 'Amulet rolls the high range.'],
+    ['6', 'Vulnerable Damage', 'Damage.'],
+    ['7', 'Attack Speed', 'Toward 100%.'],
+    ['8', 'Maximum Life / Willpower', 'Survival / main stat. +Ranks to Core Skills is also fine.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Demonic Aspect* → Endgame: **Moloch\'s Beating Flame** (with Sadistic Aspect added later, §13)'],
+    ['Temper', 'Resource Cost Reduction or Lucky Hit: Restore Primary Resource (*Worldly Stability*)'],
+    ['Socket', 'Soul Splinter. Black Soulstone early; Mother in the endgame.'],
+    ['Ignore', 'Abyss / Occult / Basic / Defensive ranks, Physical/Shadow damage, Luck, Life Regeneration'],
+  ] },
+
+  // WEAPON
+  { t: 'h3', text: 'Main-hand weapon' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['0', '**Weapon damage / Item Power**', 'Your damage scales off weapon damage. Take the biggest one.'],
+    ['1', '**Willpower**', 'Weapons roll the high range.'],
+    ['2', '**Critical Strike Damage**', 'Damage.'],
+    ['3', '**Fire Damage**', 'Damage.'],
+    ['4', 'Damage (all)', 'Damage.'],
+    ['5', 'Lucky Hit: Chance to Restore Primary Resource', 'Wrath sustain (Elegy rolls it too).'],
+    ['6', 'Maximum Life', 'Survival.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: *Remorseless Aspect* (or Edgemaster\'s / Demonic if missing) → later: **Elegy** (1H sword)'],
+    ['Early option', 'A **2H weapon** is fine while leveling up gear. It has 2 sockets for Rubies; Maxroll\'s leveling setup uses a 2H sword. The endgame is 1H sword + Focus.'],
+    ['Temper', 'Attack Speed (Starter) or Crit Chance (endgame) (*Worldly Destruction*)'],
+    ['Socket', 'Ruby (Fire damage)'],
+    ['Ignore', 'Physical/Shadow damage, Damage over Time'],
+  ] },
+
+  // FOCUS
+  { t: 'h3', text: 'Off-hand Focus' },
+  { t: 'table', widths: [700, 3400, 5980], head: ['#', 'Stat', 'Why'], rows: [
+    ['1', '**Critical Strike Chance**', 'Toward 100%.'],
+    ['2', '**Critical Strike Damage**', 'Damage.'],
+    ['3', '**Fire Damage**', 'Damage.'],
+    ['4', '**Willpower**', 'Main stat.'],
+    ['5', 'Resource Cost Reduction', 'Wrath sustain.'],
+    ['6', 'Maximum Life', 'Survival.'],
+    ['7', 'Cooldown Reduction', 'Uptime.'],
+  ] },
+  { t: 'kv', rows: [
+    ['Aspect', 'Starter: **Ancient\'s Pledge** runeword (Ral + Ort + Tal) → later: **Infernal Homunculus** (only after Elegy)'],
+    ['No runeword yet?', 'A Rare Focus with an offensive aspect you aren\'t using elsewhere: Edgemaster\'s, Scorching Heat or Demonic.'],
+    ['Temper', 'Crit Chance or Attack Speed (*Worldly Destruction*)'],
+    ['Socket', 'Ruby'],
+  ] },
+
+  { t: 'h2', text: '5.3 Which aspects can go where' },
+  { t: 'p', text: 'Aspects are locked to certain slots by category. Use this table when a slot is already taken or you are missing an aspect.' },
+  { t: 'table', widths: [2600, 1700, 2900, 2880], head: ['Aspect', 'Category', 'Allowed slots', 'Build use'], rows: [
+    ['Remorseless', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Starter weapon'],
+    ['Edgemaster\'s', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Starter ring'],
+    ['Scorching Heat', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Starter ring (scales with Fire Resistance)'],
+    ['Demonic', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Starter amulet, Midgame ring'],
+    ['Ignition', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Midgame gloves'],
+    ['Malicious', 'Offensive', 'Weapon, Focus, Gloves, Ring, Amulet', 'Focus before Homunculus (needs Demonform)'],
+    ['Accursed Touch', 'Utility', 'Helm, Chest, Gloves, Pants, Boots, Amulet', 'Starter gloves (Vulnerable)'],
+    ['Fiendish Oppression', 'Utility', 'Helm, Chest, Gloves, Pants, Boots, Amulet', 'Starter boots'],
+    ['Sadistic', 'Utility', 'Helm, Chest, Gloves, Pants, Boots, Amulet', 'Midgame boots (Barrier engine)'],
+    ['Undying', 'Utility', 'Helm, Chest, Gloves, Pants, Boots, Amulet', 'Endgame boots (heal on cast)'],
+    ['Rallying Reversal', 'Utility', 'Helm, Chest, Gloves, Pants, Boots, Amulet', 'Push boots (+20% Attack Speed)'],
+    ['Fortress', 'Defensive', 'Helm, Chest, Pants, Amulet', 'Starter helm'],
+    ['Coagulation', 'Defensive', 'Helm, Chest, Pants, Amulet', 'Starter pants'],
+    ['Diabolical Armor', 'Defensive', 'Helm, Chest, Pants, Amulet', 'Midgame+ chest'],
+  ] },
+
+  { t: 'h2', text: '5.4 Fixing Rares: Codex, Occultist and Horadric Cube' },
+  { t: 'table', widths: [2600, 3500, 3980], head: ['Tool', 'What it does', 'Cost / notes'], rows: [
+    ['**Imprint Aspect** (Occultist)', 'Puts a Codex aspect on the item. A Rare becomes Legendary.', 'Non-Ancestral: 15 Baleful Fragment + 250k gold. Ancestral: 25 Forgotten Soul + 1M gold.'],
+    ['**Enchant** (Occultist)', 'Rerolls one affix: pick one of 2 new options or keep the old one.', 'After that, only that affix can be rerolled. The item becomes account-bound and the gold cost rises each time.'],
+    ['**Add Affix** (Cube)', 'Adds a random affix. A prism narrows the category.', '1 Coarse Dust + 5 Raw Dust'],
+    ['**Remove Affix** (Cube)', 'Removes a random affix. Magic/Rare only, so do it before imprinting.', '1 Refined Dust + 15 Raw Dust'],
+    ['**Focused / Chaotic Reroll** (Cube)', 'Rerolls an affix within its category (Focused) or into another category (Chaotic).', '1 Refined Dust + 15 Raw Dust (+ prism)'],
+    ['**Upgrade to Legendary** (Cube)', 'Rare becomes Legendary with a random aspect. Good for unlocking aspects.', '1 Pure Dust + 10 Raw Dust (+ prism)'],
+    ['**3-to-1** (Cube)', '3 items of one type become a random new one. Three Ancestral inputs give an Ancestral result.', 'Good for bad Ancestral duplicates'],
+    ['**Craft Unique** (Cube)', 'A Common (white) item becomes a random Unique of that slot.', '1 Enhanced Dust + 10 Raw Dust. Use an Ancestral white base for an Ancestral Unique.'],
+  ] },
+  { t: 'p', text: '**Tuning Prisms** steer categories: *Aggressive* (offense), *Adept\'s* (main stat and skill ranks), *Protector\'s* (defense), *Resourceful* (resource), *Chromatic* (resistances), *Pragmatic* (utility). You get Primordial Dust from War Plans, Tree of Whispers rewards and bosses.' },
+  { t: 'p', text: '**Order of work on an item:** fix affixes in the Cube while it is Rare, then **Socket, Temper, Enchant, Aspect, Masterwork** (masterwork only Ancestral items). Transfigure last, if ever.' },
+
+  { t: 'h2', text: '5.5 Tempering cheat sheet' },
+  { t: 'table', widths: [2300, 3800, 3980], head: ['Slot', 'Temper', 'Manual'], rows: [
+    ['Helm, Chest, Pants', 'Maximum Life', '*Worldly Endurance* (Defensive)'],
+    ['Boots', 'Movement Speed', '*Natural Motion* (Mobility)'],
+    ['Weapon, Focus', 'Attack Speed or Crit Chance', '*Worldly Destruction* (Weapons)'],
+    ['Gloves', 'Demonology Damage (or Archfiend Damage), or Hellfire Damage', '*Demonologist* or *Channeler* (Warlock Offensive)'],
+    ['Rings', 'Lucky Hit: Restore Primary Resource', '*Worldly Stability* (Resource; jewelry only)'],
+    ['Amulet', 'Resource Cost Reduction or Lucky Hit: Restore Resource', '*Worldly Stability*'],
+  ] },
+  { t: 'p', text: 'Each item takes **one** temper with 3 rerolls, plus 1 per Greater Affix, up to 7. A **Scroll of Restoration** refills rerolls; get them from the Dark Citadel, the end of Infernal Hordes and World Bosses. Ancestral items can roll the temper as a Greater Affix (+50%).' },
+
+  { t: 'h2', text: '5.6 What to use before the ideal gems, Soul Splinters, runes and charms' },
+  { t: 'h3', text: 'Gems' },
+  { t: 'bullets', items: [
+    '**Weapon and Focus: Ruby** (Fire damage multiplier). Upgrade the tier as you go: Chipped → Flawless → Royal → Grand → **Horadric** (5 Grand make 1 Horadric in the Cube).',
+    '**Helm, Chest, Pants: Sapphire** (Willpower) until you use those sockets for runes.',
+    '**Jewelry: Soul Splinters.** Until you have them, use **Rubies** (Fire Resistance) toward the Fire target.',
+    'Sockets are added at the Jeweler (Ancestral: 1 Scattered Prism + 150k gold). Helm, chest and pants can have 2.',
+  ] },
+  { t: 'h3', text: 'Soul Splinters: where they come from and what to use first' },
+  { t: 'table', widths: [2400, 1500, 1700, 4480], head: ['Splinter', 'Resistance', 'Gem Reserve to pick', 'Use'], rows: [
+    ['**Black Soulstone**', 'All Stats', '— (random drops)', 'Main damage splinter. Souls stack; you take more damage per soul. **Not for Hardcore.**'],
+    ['**Anguish** (Andariel)', 'Fire', 'Ruby', 'Attack Speed + Crit Chance, but +30% resource costs'],
+    ['**Mother** (Lilith)', 'Physical', 'Skull', 'Unhindered + touching enemies makes them Vulnerable'],
+    ['**Pain** (Duriel)', 'Poison', 'Emerald', 'Damage reduction, −30% movement speed (Mother offsets it)'],
+    ['**Damnation** (Skarn)', 'Shadow', 'Amethyst', 'Elite kills: +1 Monster Power, +25% XP (endgame XP splinter)'],
+    ['**Hellfire** (Na-Krul)', 'All Elements', 'Diamond', 'Big multiplicative damage but **−100% Crit Chance**. Only while you barely crit.'],
+    ['Lies (Belial)', 'Cold', 'Sapphire', 'Gold/materials + XP, but you are always Weakened and Vulnerable (risky)'],
+    ['Sin (Azmodan)', 'Lightning', 'Topaz', 'Max Life, −30% max resource'],
+  ] },
+  { t: 'bullets', items: [
+    '**Tiers:** Lesser (Magic) → Splinter (Rare) → Greater (Legendary) → **Abyssal** (Unique). Combine **5 into 1** of the next tier (Cube Amalgamation).',
+    '**Farm them** in **Escalation Nightmare Dungeons**. Take the NMD War Plan nodes up to *Branching Pathways*. On every floor pick the **Gem Reserve** that matches the splinter\'s resistance. The chests and the boss then drop that splinter. 5 normal NMD sigils make 1 Escalation Sigil in the Cube.',
+    '**Starter picks:** Black Soulstone (amulet), Anguish and Mother (rings). If you have almost no Crit Chance yet, a **Hellfire** splinter is a strong temporary damage pick, but never run Hellfire and Anguish together.',
+    '**Rules:** jewelry only (amulet + 2 rings), plus 2 in the helm with **Leoric\'s Crown**, which boosts them. Each splinter only once. The Rank IV objective wants 5 different splinter types.',
+  ] },
+  { t: 'h3', text: 'Runes and runewords' },
+  { t: 'bullets', items: [
+    '**Stealth** (Tal + Eth, white chest): craft now. The story\'s first Prime Evil fight gives you Tal and Eth.',
+    '**Ancient\'s Pledge** (Ral + Ort + Tal, white Focus): climb the rune ladder, 3 → 1 in the Cube: Tir → Eth → Ith → Tal → Ral → Ort.',
+    '**Where runes drop:** mainly the **Undercity**, especially with a *Greater Tribute of Harmony* for targeted runes, and **Waking Nightmares**. **Liquid Rainbow** (Season Rank V reward) opens Whimsyshire, which is rune-rich. Lair Bosses drop runes with the *Lair of Runes* node.',
+    '**Rune pairs in sockets** (Ritual + Invocation in the same item): Starter chest Moni + Qua, Starter helm Cir + Prid. Leveling alternative: Cir + Gar (crit).',
+    '*Optional idea, not used by the build guides:* **Mal** (Ritual: Offering when your Prime Evil power triggers) + **Ist** (Invocation: triggers your Prime Evil power) form a loop that makes **Ice of Excidium** fire more often. With Destruction rank 6 (+50 Wrath per proc) that\'s extra Wrath while a socket pair is free.',
+  ] },
+  { t: 'h3', text: 'Talisman (Seal + charms)' },
+  { t: 'bullets', items: [
+    '**Now:** any Legendary Seal (5 slots) with **Slaughter** set charms (Fer/Phoba/Mlor of Slaughter). *Fer of Slaughter* is the standout. Fill the rest with Practiced Technique or Survival pieces.',
+    '**Later:** a Legendary Seal with **+1 Charm Slot** and the **Abaddon\'s Flesh** set bonus. 5 Abaddon\'s Flesh charms (Linta, Phoba, Berú, Fer, Mlor) + **Anathema of the Primes** (unique charm).',
+    '**Charm stats to look for:** +Hellfire or +Demonology ranks, and **the single resistance you are missing**. Charms are how you cover off-resistances. All Stats, Max Life and Max Resource are also good.',
+  ] },
+];
