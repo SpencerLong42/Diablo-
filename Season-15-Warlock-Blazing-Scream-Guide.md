@@ -664,7 +664,7 @@ Mythic drop chance scales with Torment, from about 0.05% at T1 to 0.4% at T12 (a
 | Slot | Item / aspect | Key stats | Temper | Sockets |
 |---|---|---|---|---|
 | Helm | Legendary, *Aspect of the Fortress* | **Willpower, Life, Armor, +Demonology** · then CDR, Resource Gen | Max Life | **Cir + Prid** |
-| Chest | **Stealth** runeword (Tal + Eth) | Fixed by the runeword: Life, 20% DR, 25% Move Speed, 15% Resource Gain, faster casting, shorter CC | Max Life | **Moni + Qua** |
+| Chest | **Stealth** runeword (Tal + Eth) | Fixed by the runeword: Life, 25% Attack Speed, 25% Move Speed, 15% DR, 15% Resource Gain, 25% shorter CC | Max Life | **Moni + Qua** |
 | Off-hand | **Ancient's Pledge** runeword (Ral + Ort + Tal) | Fixed by the runeword: 35% All Damage, 35% DR, 35% Fire/Cold/Lightning/Poison Res | Attack Speed | Ruby |
 | Weapon | 1H Sword, *Remorseless Aspect* | **Willpower, Life, Fire Dmg, Damage** · then Crit Dmg | Attack Speed | Ruby |
 | Gloves | *Aspect of Accursed Touch* | **Willpower, Crit Chance, Attack Speed, Vulnerable** · then Fire, Crit Dmg, Life | Demonology Dmg | — |
