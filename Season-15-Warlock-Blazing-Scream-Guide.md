@@ -188,7 +188,13 @@ This assumes you only have **Rare items**, the Splinter of Destruction, no build
 
 ## 5. Gear Before Your Ideal Items: Stat Priority by Slot
 
-Each gear slot can only roll certain stats. These lists come from the **Season 15 game data**: the affixes that can currently roll on each Warlock slot, filtered to the ones this build wants. The order follows what the build values in Maxroll's decoded setups.
+Each gear slot can only roll certain stats (**Season 15 game data**). A Rare or Legendary holds **4 affixes**. In each table below, **rows 1–4 are the four stats Maxroll's Starter setup puts on that slot**, in Maxroll's order; its planner treats the first four stats listed as the actual item. Rows 5 and down are backups for when you can't get one of the four. Where the Midgame still uses a Legendary in that slot but wants different stats, a **Midgame+** line says what changes.
+
+> **Starter rule of thumb**
+>
+> **Willpower + Maximum Life on every piece, plus two stats for that slot.** The gloves are the exception: Willpower, Crit Chance, Attack Speed and Vulnerable Damage.
+>
+> The Midgame changes the boots, gloves and Legendary ring (see each slot's Midgame+ line). If a piece is Ancestral and you will keep it into the Midgame, you can build it toward the Midgame stats straight away.
 
 ### 5.1 Build-wide targets and how to judge a drop in 10 seconds
 
@@ -197,7 +203,8 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 | Attack Speed (total) | more than **40%** | **100%** (cap) |
 | Critical Strike Chance (total) | more than **20%** | **100%** (cap) |
 | Wrath per second | as much as you can find | more than **10** |
-| Maximum Life | on nearly every piece | on nearly every piece |
+| Willpower | on **every** piece | most pieces; boots and gloves drop it |
+| Maximum Life | every piece except gloves | on nearly every piece |
 | Lucky Hit: Restore Primary Resource tempers | **3** (both rings + amulet) | **2** (both rings) |
 | Fire Resistance | Fire first, then the others | more than **10,000** (you burn yourself with Fire) |
 
@@ -207,7 +214,7 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 > 2. **Rare** with 2+ of them → keep (imprint an aspect, enchant the worst affix). **Legendary** with 3+ of them → keep. Otherwise salvage. Salvaging Legendaries feeds your Codex.
 > 3. A **Greater Affix** (★) on a top-4 stat is worth keeping with one fewer match.
 > 4. **Ancestral beats non-Ancestral** with the same stats: higher Item Power, and a Greater Affix chance when tempering.
-> 5. **Weapons:** judge by weapon damage first, then Willpower, Crit Damage and Fire Damage. Weapon upgrades are the biggest damage jumps.
+> 5. **Weapons:** judge by weapon damage first, then Willpower, Max Life, Fire Damage and Damage. Weapon upgrades are the biggest damage jumps.
 
 ### 5.2 Per-slot stat priority
 
@@ -215,12 +222,12 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Maximum Life** | Survival. Metamorphosis later scales damage off bonus Max Life. |
-| 2 | **+Ranks to Demonology Skills** | Blazing Scream is a Demonology skill. |
-| 3 | **Willpower** | Warlock main stat: skill damage and healing received. |
-| 4 | **Cooldown Reduction** | More Dark Prison, Metamorphosis and Apocalypse uptime. |
-| 5 | Armor | Physical damage reduction. |
-| 6 | Wrath per Second / Resource Generation | Wrath sustain. |
+| 1 | **Willpower** | Warlock main stat: skill damage and healing received. |
+| 2 | **Maximum Life** | Survival. Metamorphosis later scales damage off bonus Max Life. |
+| 3 | **Armor** | Physical damage reduction. |
+| 4 | **+Ranks to Demonology Skills** | Blazing Scream is a Demonology skill. |
+| 5 | Cooldown Reduction | More Dark Prison, Metamorphosis and Apocalypse uptime. |
+| 6 | Resource Generation / Wrath per Second | Wrath sustain. |
 | 7 | Resistance to All Elements, then Fire Resistance | Fill resistance gaps. |
 
 - **Aspect:** Starter: *Aspect of the Fortress* → later: **Leoric's Crown** (unique; holds 2 Soul Splinters)
@@ -232,15 +239,16 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Maximum Life** | Survival. |
+| 1 | **Willpower** | Main stat. |
 | 2 | **Armor** | Chest can roll the high "Greater" Armor range. |
-| 3 | **Wrath per Second** | Build target: more than 10 total. |
-| 4 | **Willpower** | Main stat. |
+| 3 | **Maximum Life** | Survival. |
+| 4 | **Wrath per Second** | Build target: more than 10 total. The masterwork target later. |
 | 5 | Resistance to All Elements / Fire Resistance | Resistances. |
 | 6 | Healing Received | Feeds the Temerity Barrier later. |
 | 7 | Resource Cost Reduction | Wrath sustain. |
 | – | +Ranks to Dark Prison (bonus) | Nice extra; Dark Prison is a core defensive skill. |
 
+- **Which chest?:** Stealth's stats are fixed by the runeword, so this table is Maxroll's Midgame Legendary chest. Use it for a chest before you craft Stealth, and for the Midgame.
 - **Aspect:** Starter: **Stealth** runeword (no aspect needed) → Midgame+: *Aspect of Diabolical Armor* (Speedfarm: **Enigma**)
 - **No runeword yet?:** A chest with *Undying Aspect* (heals on cast), or another Defensive/Utility aspect you are not already using. The same aspect on two items does not stack.
 - **Temper:** Max Life (*Worldly Endurance*)
@@ -251,15 +259,16 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Critical Strike Chance** | Toward the crit target (100% later). |
-| 2 | **Attack Speed** | Toward the attack speed target (100% later). |
-| 3 | **+Ranks to Blazing Scream** | Only gloves roll this. Huge. |
-| 4 | **Critical Strike Damage** | Gloves roll the high "Greater" range. |
-| 5 | Vulnerable Damage | The build keeps enemies Vulnerable. |
-| 6 | Fire Damage | Blazing Scream is Fire / Hellfire. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Critical Strike Chance** | Toward the crit target (100% later). |
+| 3 | **Attack Speed** | Toward the attack speed target (100% later). |
+| 4 | **Vulnerable Damage** | Accursed Touch keeps enemies Vulnerable. |
+| 5 | Fire Damage | Blazing Scream is Fire / Hellfire. |
+| 6 | Critical Strike Damage | Gloves roll the high "Greater" range. Top 4 from the Midgame. |
 | 7 | Maximum Life | Survival. |
-| 8 | Willpower | Main stat. |
+| 8 | +Ranks to Blazing Scream | Nice bonus, but Maxroll ranks it below these. |
 
+- **Midgame+:** *Aspect of Ignition* gloves want **Attack Speed, Crit Chance, Crit Damage, Vulnerable Damage**. Willpower drops out; Crit Damage is the masterwork target.
 - **Aspect:** Starter: *Aspect of Accursed Touch* (your Vulnerable source) → Midgame: *Aspect of Ignition* → Endgame: **Hand of Apotheosis** (Mythic, 90%+)
 - **Temper:** Demonology Damage (*Demonologist* manual; it can also roll Archfiend damage) or Hellfire Damage (*Channeler*)
 - **Sockets:** None
@@ -269,14 +278,13 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Maximum Life** | Survival. |
-| 2 | **Armor** | Pants roll the high Armor range. |
-| 3 | **Wrath per Second** | Wrath sustain. |
-| 4 | **Willpower** | Main stat. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Maximum Life** | Survival. |
+| 3 | **Armor** | Pants roll the high Armor range. |
+| 4 | **Wrath per Second** | Wrath sustain. |
 | 5 | Resistance to All Elements | Resistances. |
-| 6 | Fire Resistance | Big chunk toward the Fire target. |
-| 7 | Healing Received | Temerity Barrier later. |
-| 8 | Potion Charges | Quality of life. |
+| 6 | Potion Charges | Quality of life. |
+| 7 | Fire Resistance | Big chunk toward the Fire target. |
 
 - **Aspect:** Starter: *Aspect of Coagulation* → later: **Temerity** (unique)
 - **Temper:** Max Life (*Worldly Endurance*)
@@ -287,15 +295,16 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Movement Speed** | Speed, and Blazing Scream's *Impact Velocity* scales with it. |
-| 2 | **Maximum Life** | Survival. |
-| 3 | **Wrath per Second** | Wrath sustain. |
-| 4 | **+Ranks to Hellfire Skills** | Blazing Scream is Hellfire. |
-| 5 | Willpower | Main stat. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Movement Speed** | Speed, and Blazing Scream's *Impact Velocity* scales with it. |
+| 3 | **Maximum Life** | Survival. |
+| 4 | **Wrath per Second** | Wrath sustain. |
+| 5 | +Ranks to Rampage | Rampage is your Starter tank. |
 | 6 | Armor | Damage reduction. |
-| 7 | Resistance to All Elements | Resistances. |
-| – | +Ranks to Rampage (Starter) / Evade Charges (Teleport build) | Situational bonuses. |
+| 7 | +Ranks to Hellfire Skills | Not in the Starter list, but a top-4 stat from the Midgame on (Blazing Scream is Hellfire). |
+| – | Resistance to All Elements / Evade Charges (Teleport build) | Situational. |
 
+- **Midgame+:** *Sadistic* → *Undying* boots want **Movement Speed, Max Life, Wrath per Second, +Hellfire ranks**. Willpower drops to 5th; Wrath per Second is the masterwork target.
 - **Aspect:** Starter: *Aspect of Fiendish Oppression* → Midgame: *Sadistic Aspect* → Endgame: *Undying Aspect* (Push: *Aspect of Rallying Reversal*)
 - **Temper:** Movement Speed (*Natural Motion*)
 - **Sockets:** None
@@ -305,15 +314,16 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Critical Strike Chance** | Toward 100%. |
-| 2 | **Attack Speed** | Toward 100%. |
-| 3 | **Critical Strike Damage** | Damage. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Maximum Life** | Survival. |
+| 3 | **Attack Speed** | Toward the attack speed target. |
 | 4 | **Vulnerable Damage** | Damage. |
-| 5 | Maximum Life | Survival. |
-| 6 | Willpower | Main stat. |
-| 7 | Fire Damage | Damage. |
-| 8 | Resource Cost Reduction / Damage | Filler. |
+| 5 | Critical Strike Chance | Toward the crit target. Top 4 from the Midgame. |
+| 6 | Damage (all) | Damage. |
+| 7 | Critical Strike Damage | Damage. Top 4 from the Midgame. |
+| 8 | Life on Hit | Sustain. |
 
+- **Midgame+:** The *Demonic Aspect* ring wants **Willpower, Attack Speed, Crit Chance, Crit Damage**; Crit Chance is the masterwork target. The other ring is The Eightfold Idol, and later both rings are uniques.
 - **Aspect:** Starter: *Aspect of Scorching Heat* + *Edgemaster's Aspect* → Midgame: *Demonic Aspect* + **The Eightfold Idol** → Endgame: **Wendigo Brand** + **The Eightfold Idol**
 - **Temper:** Lucky Hit: Restore Primary Resource (*Worldly Stability*)
 - **Socket:** Soul Splinter (§5.6). If you have none, a Ruby (Fire Resistance).
@@ -323,14 +333,14 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **+Ranks to All Skills** | Best single stat here. |
-| 2 | **+Ranks to Hellfire Skills** | Blazing Scream is Hellfire. |
-| 3 | **+Ranks to Demonology Skills** | Blazing Scream is Demonology. |
-| 4 | **Critical Strike Chance** | Toward 100%. |
-| 5 | Critical Strike Damage | Amulet rolls the high range. |
-| 6 | Vulnerable Damage | Damage. |
-| 7 | Attack Speed | Toward 100%. |
-| 8 | Maximum Life / Willpower | Survival / main stat. +Ranks to Core Skills is also fine. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Maximum Life** | Survival. |
+| 3 | **Vulnerable Damage** | Damage. |
+| 4 | **+Ranks to Demonology Skills** | Blazing Scream is Demonology. |
+| 5 | Attack Speed | Toward the attack speed target. |
+| 6 | +Ranks to All Skills | Good bonus. |
+| 7 | +Ranks to Core Skills | Blazing Scream is a Core skill. |
+| 8 | Critical Strike Chance | Toward the crit target. |
 
 - **Aspect:** Starter: *Demonic Aspect* → Endgame: **Moloch's Beating Flame** (with Sadistic Aspect added later, §13)
 - **Temper:** Resource Cost Reduction or Lucky Hit: Restore Primary Resource (*Worldly Stability*)
@@ -343,11 +353,11 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 |---|---|---|
 | 0 | **Weapon damage / Item Power** | Your damage scales off weapon damage. Take the biggest one. |
 | 1 | **Willpower** | Weapons roll the high range. |
-| 2 | **Critical Strike Damage** | Damage. |
+| 2 | **Maximum Life** | Survival. Weapons roll the high range of this too. |
 | 3 | **Fire Damage** | Damage. |
-| 4 | Damage (all) | Damage. |
-| 5 | Lucky Hit: Chance to Restore Primary Resource | Wrath sustain (Elegy rolls it too). |
-| 6 | Maximum Life | Survival. |
+| 4 | **Damage (all)** | Damage. |
+| 5 | Critical Strike Damage | Damage. |
+| 6 | Lucky Hit: Chance to Restore Primary Resource | Wrath sustain (Elegy rolls it too). |
 
 - **Aspect:** Starter: *Remorseless Aspect* (or Edgemaster's / Demonic if missing) → later: **Elegy** (1H sword)
 - **Early option:** A **2H weapon** is fine while leveling up gear. It has 2 sockets for Rubies; Maxroll's leveling setup uses a 2H sword. The endgame is 1H sword + Focus.
@@ -359,14 +369,15 @@ Each gear slot can only roll certain stats. These lists come from the **Season 1
 
 | # | Stat | Why |
 |---|---|---|
-| 1 | **Critical Strike Chance** | Toward 100%. |
-| 2 | **Critical Strike Damage** | Damage. |
-| 3 | **Fire Damage** | Damage. |
-| 4 | **Willpower** | Main stat. |
-| 5 | Resource Cost Reduction | Wrath sustain. |
-| 6 | Maximum Life | Survival. |
+| 1 | **Willpower** | Main stat. |
+| 2 | **Maximum Life** | Survival. |
+| 3 | **Critical Strike Chance** | Toward the crit target. |
+| 4 | **Critical Strike Damage** | Damage. |
+| 5 | Fire Damage | Damage. |
+| 6 | Resource Cost Reduction | Wrath sustain. |
 | 7 | Cooldown Reduction | Uptime. |
 
+- **Not a Maxroll list:** No Maxroll setup uses a random Focus: the Starter uses Ancient's Pledge and the Midgame uses Infernal Homunculus. This list follows the Starter pattern plus Homunculus's stats.
 - **Aspect:** Starter: **Ancient's Pledge** runeword (Ral + Ort + Tal) → later: **Infernal Homunculus** (only after Elegy)
 - **No runeword yet?:** Use a **two-handed weapon** with *Remorseless Aspect* and 2 Rubies instead of sword + Focus until you craft Ancient's Pledge. Maxroll's leveling setup does the same. Your other offensive aspects are already on the rings and amulet, and duplicates don't stack.
 - **Temper:** Crit Chance or Attack Speed (*Worldly Destruction*)
@@ -648,18 +659,20 @@ Mythic drop chance scales with Torment, from about 0.05% at T1 to 0.4% at T12 (a
 | Command Fallen | 8 | Wrath, Dominance | **Fallen Rush** |
 | Dark Prison | 1 | Cooldown Reduction, Fortify | **Chain Aura** (not on your bar; the **Prid** rune casts it) |
 
+**Key stats:** the **bold** stats are the 4 affixes to aim for (a Rare or Legendary holds 4). The rest are backups if you can't get one of them.
+
 | Slot | Item / aspect | Key stats | Temper | Sockets |
 |---|---|---|---|---|
-| Helm | Legendary, *Aspect of the Fortress* | Willpower, Life, Armor, +Demonology, CDR, Resource Gen | Max Life | **Cir + Prid** |
-| Chest | **Stealth** runeword (Tal + Eth) | Willpower, Life, Armor, Wrath/s, Cost Red., All Res | Max Life | **Moni + Qua** |
-| Off-hand | **Ancient's Pledge** runeword (Ral + Ort + Tal) | — | Attack Speed | Ruby |
-| Weapon | 1H Sword, *Remorseless Aspect* | Willpower, Life, Fire Dmg, Damage, Crit Dmg | Attack Speed | Ruby |
-| Gloves | *Aspect of Accursed Touch* | Willpower, Crit Chance, Attack Speed, Vulnerable, Fire, Crit Dmg, Life | Demonology Dmg | — |
-| Pants | *Aspect of Coagulation* | Willpower, Life, Armor, Wrath/s, All Res | Max Life | 2× Sapphire |
-| Boots | *Aspect of Fiendish Oppression* | Move Speed, Willpower, Life, Wrath/s, +Rampage, Armor | Move Speed | — |
-| Ring 1 | *Aspect of Scorching Heat* | Willpower, Life, AS, Vulnerable, Crit Chance, Dmg, Crit Dmg | Lucky Hit Resource | Splinter of **the Mother** |
+| Helm | Legendary, *Aspect of the Fortress* | **Willpower, Life, Armor, +Demonology** · then CDR, Resource Gen | Max Life | **Cir + Prid** |
+| Chest | **Stealth** runeword (Tal + Eth) | Fixed by the runeword: Life, 20% DR, 25% Move Speed, 15% Resource Gain, faster casting, shorter CC | Max Life | **Moni + Qua** |
+| Off-hand | **Ancient's Pledge** runeword (Ral + Ort + Tal) | Fixed by the runeword: 35% All Damage, 35% DR, 35% Fire/Cold/Lightning/Poison Res | Attack Speed | Ruby |
+| Weapon | 1H Sword, *Remorseless Aspect* | **Willpower, Life, Fire Dmg, Damage** · then Crit Dmg | Attack Speed | Ruby |
+| Gloves | *Aspect of Accursed Touch* | **Willpower, Crit Chance, Attack Speed, Vulnerable** · then Fire, Crit Dmg, Life | Demonology Dmg | — |
+| Pants | *Aspect of Coagulation* | **Willpower, Life, Armor, Wrath/s** · then All Res, Potion Charges | Max Life | 2× Sapphire |
+| Boots | *Aspect of Fiendish Oppression* | **Willpower, Move Speed, Life, Wrath/s** · then +Rampage, Armor | Move Speed | — |
+| Ring 1 | *Aspect of Scorching Heat* | **Willpower, Life, AS, Vulnerable** · then Crit Chance, Dmg, Crit Dmg | Lucky Hit Resource | Splinter of **the Mother** |
 | Ring 2 | *Edgemaster's Aspect* | same as Ring 1 | Lucky Hit Resource | Splinter of **Anguish** |
-| Amulet | *Demonic Aspect* | Willpower, Life, Vulnerable, +Demonology, +All Skills, +Core, AS, Crit Chance | Lucky Hit Resource | Splinter of **the Black Soulstone** |
+| Amulet | *Demonic Aspect* | **Willpower, Life, Vulnerable, +Demonology** · then AS, +All Skills, +Core, Crit Chance | Lucky Hit Resource | Splinter of **the Black Soulstone** |
 | Talisman | Legendary Seal + **Fer, Phoba, Mlor of Slaughter** + Fer, Phoba of Practiced Technique | — | — | — |
 
 - **Targets:** More than 40% Attack Speed · more than 20% Crit Chance · Max Life everywhere · 3× Lucky Hit: Restore Resource
@@ -693,16 +706,18 @@ Mythic drop chance scales with Torment, from about 0.05% at T1 to 0.4% at T12 (a
 | Rampage | 15 | Lesser Demon Wrath, Elite Hit Chance | **Demonic Smash** |
 | Molten Bomb | 8 | Wrath, Knock Down | **Demon Turret** |
 
+For the four Legendary slots, the **bold** stats are the 4 affixes to aim for. They differ from the Starter on the boots, gloves and ring.
+
 | Slot | Item | Notes |
 |---|---|---|
 | Helm | **Leoric's Crown** | Holds 2 Soul Splinters: **Black Soulstone + Anguish** |
-| Chest | Legendary, *Aspect of Diabolical Armor* | Runes **Nagu + Que** |
+| Chest | Legendary, *Aspect of Diabolical Armor* | **Willpower, Armor, Life, Wrath/s** · runes **Nagu + Que** |
 | Off-hand | **Infernal Homunculus** | Royal Ruby |
 | Weapon | **Elegy** | Royal Ruby |
-| Gloves | Legendary, *Aspect of Ignition* | Until a Mythic Hand of Apotheosis with a 90%+ roll |
+| Gloves | Legendary, *Aspect of Ignition* | **Attack Speed, Crit Chance, Crit Dmg, Vulnerable** · until a Mythic Hand of Apotheosis with a 90%+ roll |
 | Pants | **Temerity** | 2× Royal Sapphire |
-| Boots | Legendary, *Sadistic Aspect* | Heals on kills; the overheal feeds Temerity's Barrier |
-| Ring 1 | Legendary, *Demonic Aspect* | Splinter of **Pain** |
+| Boots | Legendary, *Sadistic Aspect* | **Move Speed, Life, Wrath/s, +Hellfire** · heals on kills; the overheal feeds Temerity's Barrier |
+| Ring 1 | Legendary, *Demonic Aspect* | **Willpower, AS, Crit Chance, Crit Dmg** · Splinter of **Pain** |
 | Ring 2 | **The Eightfold Idol** | Splinter of **Damnation** |
 | Amulet | **Moloch's Beating Flame** | First Mythic target · Splinter of **the Mother** |
 | Talisman | Legendary Seal (+1 Charm Slot, Crit Chance, Abaddon's Flesh bonus) | **Linta, Phoba, Berú, Fer, Mlor of Abaddon's Flesh** + **Anathema of the Primes** |
@@ -724,7 +739,7 @@ Mythic drop chance scales with Torment, from about 0.05% at T1 to 0.4% at T12 (a
 - **Skill bar:** Sigil of Subversion · Dark Prison · Metamorphosis · Command Abodian · Molten Bomb · Blazing Scream
 - **Skill points:** The Midgame points, with Rampage at 11 (same modifiers and variant), plus **Sigil of Subversion** at 1 rank (Movement Speed, Slow, **Sigil of Lava**)
 
-★ = Greater Affix. **MW** = the affix to aim your masterwork capstone at.
+★ = Greater Affix. **MW** = the affix to aim your masterwork capstone at. On the Legendary chest and boots, the first 4 listed are the item's affixes and the rest are backups.
 
 | Slot | Item | Key affixes | MW | Temper | Sockets |
 |---|---|---|---|---|---|

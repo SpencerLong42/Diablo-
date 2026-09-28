@@ -2,14 +2,14 @@
 
 ## Season 15 – Warlock "Blazing Scream": level 70 → endgame playbook
 
-- **[Season-15-Warlock-Blazing-Scream-Guide.docx](Season-15-Warlock-Blazing-Scream-Guide.docx)**: the formatted Word version, about 30 pages with a title page, clickable contents and tables.
+- **[Season-15-Warlock-Blazing-Scream-Guide.docx](Season-15-Warlock-Blazing-Scream-Guide.docx)**: the formatted Word version, about 32 pages with a title page, clickable contents and tables.
 - **[Season-15-Warlock-Blazing-Scream-Guide.md](Season-15-Warlock-Blazing-Scream-Guide.md)**: the same content for reading on GitHub.
 
 The guide starts from **level 70 with Rare items only and the Splinter of Destruction**. It covers:
 
 1. **The short answer to "should I just run Lair Bosses?"**, a 5-phase overview and a master checklist.
 2. **A step-by-step endgame plan** from Rares to Mythics: what to do in town, then at Penitent → T1 → T5 → T8 → T12.
-3. **Stat priority for every gear slot** before you have the ideal items. The lists come from the Season 15 game data (what can actually roll on each Warlock slot). Each slot also lists its aspect, tempering manual, sockets and what to ignore. There's also an aspect slot-rules table, how to fix Rares (Codex, Occultist, Horadric Cube), and what gems, Soul Splinters, runes and charms to use in the meantime.
+3. **Stat priority for every gear slot** before you have the ideal items. The top four per slot are the four stats Maxroll's Starter setup puts on that slot, followed by backups and what changes at Midgame. Each slot also lists its aspect, tempering manual, sockets and what to ignore. There's also an aspect slot-rules table, how to fix Rares (Codex, Occultist, Horadric Cube), and what gems, Soul Splinters, runes and charms to use in the meantime.
 4. **Season 15 systems:** the questline, all 24 Splinter of Destruction ranks, the Season Rank ladder, War Plans, Talismans, mercenaries, and the Pit/Torment tiers.
 5. **The build in phases:**
    - Starter (no uniques)

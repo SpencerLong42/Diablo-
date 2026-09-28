@@ -250,7 +250,7 @@ function renderBody() {
       case 'h1': out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new Bookmark({ id: b.id, children: [new TextRun(b.text)] })] })); break;
       case 'h2': out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(b.text)] })); break;
       case 'h3': out.push(new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun(b.text)] })); break;
-      case 'p': out.push(para(b.text)); break;
+      case 'p': out.push(para(b.text, b.keep ? { keepNext: true } : {})); break;
       case 'bullets': out.push(...bulletParas(b.items)); break;
       case 'numbered': out.push(...numberedParas(b.items)); break;
       case 'check': out.push(...checkParas(b.items)); break;
