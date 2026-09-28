@@ -214,7 +214,7 @@ module.exports = [
   ] },
   { t: 'kv', rows: [
     ['Aspect', 'Starter: **Stealth** runeword (no aspect needed) → Midgame+: *Aspect of Diabolical Armor* (Speedfarm: **Enigma**)'],
-    ['No runeword yet?', 'A Rare chest with *Aspect of Coagulation* or *Aspect of the Fortress*'],
+    ['No runeword yet?', 'A chest with *Undying Aspect* (heals on cast), or another Defensive/Utility aspect you are not already using. The same aspect on two items does not stack.'],
     ['Temper', 'Max Life (*Worldly Endurance*)'],
     ['Sockets', 'Runes: Moni + Qua (Starter), Nagu + Que (Midgame+). Or 2× Sapphire.'],
     ['Ignore', 'Thorns, Fortify, Life Regeneration, Nether Step / Tortured Wretch / Wall of Agony ranks'],
@@ -347,7 +347,7 @@ module.exports = [
   ] },
   { t: 'kv', rows: [
     ['Aspect', 'Starter: **Ancient\'s Pledge** runeword (Ral + Ort + Tal) → later: **Infernal Homunculus** (only after Elegy)'],
-    ['No runeword yet?', 'A Rare Focus with an offensive aspect you aren\'t using elsewhere: Edgemaster\'s, Scorching Heat or Demonic.'],
+    ['No runeword yet?', 'Use a **two-handed weapon** with *Remorseless Aspect* and 2 Rubies instead of sword + Focus until you craft Ancient\'s Pledge. Maxroll\'s leveling setup does the same. Your other offensive aspects are already on the rings and amulet, and duplicates don\'t stack.'],
     ['Temper', 'Crit Chance or Attack Speed (*Worldly Destruction*)'],
     ['Socket', 'Ruby'],
   ] },
