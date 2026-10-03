@@ -729,10 +729,11 @@ For the four Legendary slots, the **bold** stats are the 4 affixes to aim for. T
 
 1. Ride **Command Abodian** into packs; recast to dismount.
 2. Cast **Metamorphosis** once; recast only if it drops.
-3. **Dark Prison** while fighting (kills reset it).
-4. **Molten Bomb** for Wrath.
-5. Spam **Blazing Scream** into walls.
-6. Stay close for the Inferno Fragment.
+3. **Rampage** (Demonic Smash) is your leap: use it between packs and to land on elites. It counts as a Hellfire cast, puts you in Demonform, always procs Volatility on a fresh elite, and turns on the Lesser Demon Wrath buff for 5 seconds. It costs Dominance, so it isn't spammable until Anathema of the Primes switches its cost to Wrath.
+4. **Dark Prison** while fighting (kills reset it).
+5. **Molten Bomb** for Wrath.
+6. Spam **Blazing Scream** into walls.
+7. Stay close for the Inferno Fragment.
 
 ## 13. Phase C — Endgame, Push and Speedfarm
 

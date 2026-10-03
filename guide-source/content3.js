@@ -97,6 +97,7 @@ module.exports = [
   { t: 'numbered', items: [
     'Ride **Command Abodian** into packs; recast to dismount.',
     'Cast **Metamorphosis** once; recast only if it drops.',
+    '**Rampage** (Demonic Smash) is your leap: use it between packs and to land on elites. It counts as a Hellfire cast, puts you in Demonform, always procs Volatility on a fresh elite, and turns on the Lesser Demon Wrath buff for 5 seconds. It costs Dominance, so it isn\'t spammable until Anathema of the Primes switches its cost to Wrath.',
     '**Dark Prison** while fighting (kills reset it).',
     '**Molten Bomb** for Wrath.',
     'Spam **Blazing Scream** into walls.',
