@@ -700,7 +700,7 @@ Mythic drop chance scales with Torment, from about 0.05% at T1 to 0.4% at T12 (a
 
 | Skill | Ranks | Modifiers | Variant |
 |---|---|---|---|
-| Blazing Scream | 15 | Impact Velocity, Damage | Skull Splitter (redundant with Elegy; the point can go to Rampage) |
+| Blazing Scream | 15 | Impact Velocity, Damage | Skull Splitter (redundant with Elegy, so the point can go to Molten Bomb; Rampage is already at 15) |
 | Dark Prison | 15 | Cooldown Reduction, Fortify | **Chain Aura** (45% damage reduction from outside, 80% slow) |
 | Metamorphosis | 15 | Damage Scaling, Dominance | **Destruction Demon** |
 | Rampage | 15 | Lesser Demon Wrath, Elite Hit Chance | **Demonic Smash** |
